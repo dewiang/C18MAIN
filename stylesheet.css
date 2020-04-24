@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  }
+
+.headers {
+    height: 90px;
+    width: 100%;
+    background: rgb(221, 236, 234);
+    background: -webkit-linear-gradient(top, rgb(221, 236, 234) 0%, rgba(203, 243, 218, 0.89) 75%);
+    background: -moz-linear-gradient(top, rgb(221, 236, 234) 0%, rgba(203, 243, 218, 0.89) 75%);
+    background: -o-linear-gradient(top, rgb(221, 236, 234) 0%, rgba(203, 243, 218, 0.89) 75%);
+    background: -ms-linear-gradient(top, rgb(221, 236, 234) 0%, rgba(203, 243, 218, 0.89) 75%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='rgb(221, 236, 234)', endColorstr='rgba(203, 243, 218, 0.89)', GradientType=0);
+
+}
+
+.header li {
+    padding: 28px 20px;
+    float: left;
+    font-size: 20px;
+    list-style: none;
+    color: rgb(91, 92, 91);
+}
+
+.logo_kanan {
+    padding-top: 12px;
+    float: right;
+    height: 90px;
+}
+
+.logo_kiri {
+    float: left;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+  padding-top: 10px;
+}
+
+.main-border {
+  background-size: cover;
+  float: center;
+  cursor: default;
+  padding-top: 10px;
+}
+
+.main {
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShp3v6Z1OoxgpHrzcu_KMPdEueAWno59qivWIhKPm5ITU-_FMx&usqp=CAU');
+	background-size: cover;
+	padding: 70px 0 5px 0;
+  opacity: 0.6;
+}
+
+.main h1 {
+  font-family: Justify;
+  color: #0F262A;
+  font-size: 45px;
+  letter-spacing: 3px;
+  text-align: center;
+  padding-bottom: 15px;
+  animation-name: changecolor;
+  animation-duration: 6s;
+}
+
+@keyframes changecolor {
+  0%   {color: #0D2225;}
+  25%  {color: #7BCBB8;}
+  50%  {color: #64B6A3;}
+  100% {color: #0D2225;}
+}
+
+.main h1:hover {
+  font-family: Justify;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: #183E46;
+  opacity: 0.9;
+  font-style: italic;
+  cursor: default;
+}
+
+.main h2 {
+  font-family: Justify;
+  color: black;
+  text-align: center;
+  opacity: 0.8;
+  padding-bottom: 25px;
+  animation-name: changecolor;
+  animation-duration: 6s;
+}
+
+.main-bottom {
+  background: rgb(0, 4, 5, 0.5);
+  width: 100%;
+  height: 70px;
+  position: relative;
+}
+
+.main-bottom p {
+  color: white;
+  text-align: left;
+  padding-top: 7px;
+  padding-left: 10px;
+}
